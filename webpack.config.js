@@ -1,3 +1,5 @@
+var webpack = require('webpack');
+
 module.exports = {
   entry: [
     './src/index.js'
@@ -33,6 +35,6 @@ module.exports = {
         __SERVER__: false,
         __DEVELOPMENT__: false,
         __DEVTOOLS__: false
-      })      
+      })
   ]
 };
